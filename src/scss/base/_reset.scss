@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. 62.5% is the equivalent of 10px.
+  * Making it easier to calculate rem units. i.e 1.8rem = 18px;
+  * Rem unit's adapt to the default browser font size that is set by the user
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 62.5%; /* 3 */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+select,
+button,
+input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+  outline-width: 0;
+  background: transparent;
+}

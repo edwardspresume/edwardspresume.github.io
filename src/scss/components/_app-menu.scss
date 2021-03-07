@@ -1,0 +1,61 @@
+#app-menu {
+  padding: 2rem 1rem 0.2rem 1rem;
+  display: flex;
+  // align-items: center;
+  background: #000;
+  -webkit-app-region: drag;
+
+  > * {
+    -webkit-app-region: no-drag;
+  }
+
+  #logo {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 4rem;
+  }
+
+  button {
+    color: #fff;
+  }
+}
+
+#menu-tab-div .menu-tab {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+
+  &:not(:last-of-type) {
+    margin-right: 2rem;
+  }
+
+  &.active {
+    border-bottom: 3px solid rgb(0, 157, 255);
+    border-bottom: 3px solid rgb(37, 250, 0);
+  }
+
+  &:hover {
+    color: red;
+  }
+}
+
+#minimize-close-div {
+  margin-left: auto;
+
+  button {
+    font-size: 2rem;
+    transition: color 0.2s ease;
+  }
+}
+
+#minimize-app-btn:hover {
+  color: rgb(149, 0, 255);
+}
+
+#close-app-btn {
+  margin-left: 1.7rem;
+
+  &:hover {
+    color: red;
+  }
+}
