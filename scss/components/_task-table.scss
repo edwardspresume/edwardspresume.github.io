@@ -1,0 +1,58 @@
+#task-table {
+  width: 100%;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 4rem;
+  background: $primary-bg;
+  border-collapse: collapse;
+
+  th {
+    padding: 1rem;
+    color: #fff;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #ffffffba;
+  }
+
+  th,
+  td {
+    color: #ffffffba;
+  }
+
+  tbody tr {
+    border-top: 4px solid #000;
+  }
+
+  tbody td {
+    font-size: 1.2rem;
+    padding: 1.2rem 1rem;
+  }
+
+  .task-btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: #000;
+    }
+  }
+
+  .run-task-btn {
+    color: #02fb02c9;
+  }
+
+  .edit-task-btn {
+    color: yellow;
+    color: #b7b7a3;
+  }
+
+  .delete-task-btn {
+    color: red;
+  }
+
+  .task-success {
+    color: #02fb02c9;
+  }
+}

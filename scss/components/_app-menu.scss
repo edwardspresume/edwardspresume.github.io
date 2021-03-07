@@ -1,8 +1,8 @@
 #app-menu {
-  padding: 2rem 1rem 0.2rem 1rem;
+  padding: 2rem 1rem 0.2rem 1.5rem;
   display: flex;
   // align-items: center;
-  background: #000;
+  background: $primary-bg;
   -webkit-app-region: drag;
 
   > * {
@@ -43,7 +43,7 @@
   margin-left: auto;
 
   button {
-    font-size: 2rem;
+    font-size: 1.6rem;
     transition: color 0.2s ease;
   }
 }
